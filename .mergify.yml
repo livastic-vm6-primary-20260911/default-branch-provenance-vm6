@@ -1,7 +1,7 @@
 pull_request_rules:
-  - name: vm6 main default branch rule
+  - name: vm6 safe default branch rule
     conditions:
       - author = livastic-vm6-primary-20260911
     actions:
       comment:
-        message: VM6_MAIN_DEFAULT_RULE
+        message: VM6_SAFE_DEFAULT_RULE
