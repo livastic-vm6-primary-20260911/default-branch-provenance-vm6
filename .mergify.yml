@@ -1,8 +1,2 @@
-pull_request_rules:
-  - name: vm6 full-jinja sandbox canary
-    conditions:
-      - author = livastic-vm6-primary-20260911
-    actions:
-      post_check:
-        title: "VM6_SANDBOX_{{ ''.__class__ }}"
-        summary: "VM6_SANDBOX_CANARY"
+# post_check rule 'vm6 full-jinja sandbox canary' was removed without replacement (no success_conditions or neutral_conditions to migrate)
+{}
